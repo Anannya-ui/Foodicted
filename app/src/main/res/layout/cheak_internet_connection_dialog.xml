@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center">
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/nowifi"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Opps!"
+        android:textColor="@color/pink"
+        android:textStyle="bold"
+        android:textSize="40sp"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:layout_marginTop="8dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="No Internet Connection"
+        android:textSize="25sp"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:layout_marginTop="8dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Please Cheak Your Internet Connection"
+        android:textSize="15sp"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:layout_marginTop="8dp"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnCheakInternetconnection"
+        android:text="Retry"
+        android:textColor="@color/white"
+        android:background="@color/pink"
+        android:layout_margin="50dp"
+        android:textSize="20sp"/>
+
+</LinearLayout>

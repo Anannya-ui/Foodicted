@@ -1,0 +1,20 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.FOODICTED" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    </style>
+    <style name="showactionbar" parent="Theme.MaterialComponents.DayNight.Bridge">
+
+    </style>
+    <style name="App.custome.Indicator" parent="Widget.Material3.BottomNavigationView.ActiveIndicator">
+        <item name="android:color">@color/pink</item>
+    </style>
+
+    <style name="Theme.FOODICTED" parent="Base.Theme.FOODICTED" />
+    <style name="TextAppearance.AppCompat.Widget.ActionBar.Title" parent="@android:style/TextAppearance">
+    <item name="android:textColor">@color/white</item>
+    <item name="android:textSize">26sp</item>
+    <item name="android:fontFamily">@font/amaranth_bold</item>
+    </style>
+</resources>

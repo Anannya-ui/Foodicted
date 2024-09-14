@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/pink"
+    tools:context=".SignupActivity">
+    <androidx.cardview.widget.CardView
+
+        android:layout_width="370dp"
+        android:layout_height="600dp"
+        android:backgroundTint="@color/white"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        app:cardCornerRadius="10dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="WELCOME TO FOODICTED.!"
+                android:textSize="20sp"
+                android:textStyle="normal"
+                android:textColor="@color/pink"
+                android:fontFamily="sans-serif"
+                android:layout_marginTop="60dp"
+                android:gravity="center"/>
+
+
+            <TextView
+                android:id="@+id/tvregisterTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:fontFamily="sans-serif-medium"
+                android:textAlignment="center"
+                android:text="Exciting times ahead: exclusive offers, and Delicious taste are all coming your way.
+Stay tuned!"
+                android:textColor="@color/black"
+                android:textSize="11sp"
+                android:layout_marginStart="40dp"
+                android:layout_marginEnd="40dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Create Your Account"
+                android:textSize="18sp"
+                android:textStyle="normal"
+                android:textColor="@color/pink"
+                android:fontFamily="sans-serif-medium"
+                android:gravity="center"
+                android:layout_marginTop="20dp"/>
+
+
+
+            <EditText
+                android:id="@+id/etRegisterName"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginStart="20dp"
+                android:hint="Name"
+                android:inputType="text"
+                android:textColor="@color/black"
+                android:textColorHint="@color/black"
+                android:textSize="16sp"
+                android:textStyle="normal"
+                android:background="@drawable/btn_square"
+                android:padding="10dp"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:id="@+id/etRegisterMobileNo"
+                android:hint="Mobile Number"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:inputType="number"
+                android:layout_marginEnd="20dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="16dp"
+                android:textColorHint="@color/black"
+                android:background="@drawable/btn_square"
+                android:padding="10dp"/>
+
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:id="@+id/etRegisterEmailId"
+                android:hint="E-Mail"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:inputType="textEmailAddress"
+                android:layout_marginEnd="20dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="16dp"
+                android:textColorHint="@color/black"
+                android:background="@drawable/btn_square"
+                android:padding="10dp"/>
+
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:id="@+id/etRegisterUsername"
+                android:hint="Username"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:inputType="text"
+                android:layout_marginEnd="20dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="16dp"
+                android:textColorHint="@color/black"
+                android:background="@drawable/btn_square"
+                android:padding="10dp"/>
+
+
+            <EditText
+                android:id="@+id/etRegisterPassword"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:hint="Password"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:inputType="textPassword"
+                android:layout_marginEnd="20dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="16dp"
+                android:textColorHint="@color/black"
+                android:background="@drawable/btn_square"
+                android:padding="10dp"/>
+
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btnsignin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/pink"
+                android:text="Sign In"
+                android:textColor="@color/white"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:layout_marginTop="30dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"/>
+
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+
+</RelativeLayout>

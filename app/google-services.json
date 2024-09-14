@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "845144460455",
+    "project_id": "foodicted-e02a6",
+    "storage_bucket": "foodicted-e02a6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:845144460455:android:ee18daa11a795ecedc9f82",
+        "android_client_info": {
+          "package_name": "com.example.foodicted"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCQRe2jtFSyFH_ayKnfAZ6DFp3O2EkIRS0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
